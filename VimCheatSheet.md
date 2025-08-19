@@ -1,6 +1,4 @@
-```markdown
 # 📝 Vim Cheat Sheet
-
 
 ---
 
@@ -21,7 +19,7 @@
 | `y`                 | Yank / Copy (`yy`, `yw`, etc.)                                              |
 | `p`, `P`            | Paste after / before cursor                                                 |
 | `/X`                | Search for X, then `n` (next) / `N` (previous)                              |
-| ` / `^`           | End / beginning of line (`$d` deletes to end)                               |
+| `^`, `            | Beginning / end of line (`$d` deletes to end)                               |
 | `.`                 | Repeat last command                                                         |
 | `%`                 | Jump to matching `()`, `{}` or `[]`                                         |
 | `za`                | Toggle folding                                                              |
