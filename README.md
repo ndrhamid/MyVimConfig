@@ -35,6 +35,25 @@ Open Vim and run:
 ```
 This will install all plugins defined in the vimrc
 
+## Install auto complate me(YCM plugin)
+We assume your Linux is Ubuntu or similar.
+### 1. Prerequisites
+```bash
+sudo apt update
+sudo apt install build-essential cmake python3-dev
+```
+### 2. Compile YCM
+```bash
+cd ~/.vim/plugged/YouCompleteMe
+python3 install.py --all
+```
+
+**OR**
+
+* Just enable YCM for (C-family + Python + TypeScript):
+```bash
+python3 install.py --clangd-completer --ts-completer
+```
 ## Tips
 
 ### To update all plugins later, run
