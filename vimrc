@@ -17,6 +17,7 @@ Plug 'preservim/nerdtree'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 " Plugin Block
 
@@ -158,3 +159,8 @@ nnoremap <C-a> :%y+<CR>
 
 " Copy visually selected text to system clipboard with Ctrl+C
 vnoremap <C-c> "+y
+
+" Vim floaterm configs
+nnoremap <C-t> :FloatermToggle<CR>
+tnoremap <C-t> <C-\><C-n>:FloatermToggle<CR>
+
