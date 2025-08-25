@@ -41,6 +41,8 @@
 | `:marks`            | List marks                                                                  |
 | `:delmarks<letter>` | Delete a specific mark                                                      |
 | `:delmarks!`        | Delete all marks                                                            |
+| `>>`                | Indent single line                                                          |
+| `<<`                | Unindent single line                                                        |
 
 ---
 
@@ -59,6 +61,9 @@
 | Command  | Description                         |
 |----------|-------------------------------------|
 | `v`      | Enter visual mode                   |
+| `y`      | Yank multiple lines                 |
+| `>`      | Indent multiple lines               |
+| `<`      | Unindent multiple lines             |
 | `it`     | Select inner tag                    |
 | `at`     | Select outer tag                    |
 | `:sort`  | Sort selected lines alphabetically  |
