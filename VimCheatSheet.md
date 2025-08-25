@@ -36,6 +36,11 @@
 | `:5,15s/X/Y`        | Replace X with Y from lines 5 to 15                                         |
 | `:%y+`              | Copy entire file to clipboard                                               |
 | `:5,15y+`           | Copy lines 5 to 15 to clipboard                                             |
+| `m<letter>`         | ma   " Sets mark 'a' at the current cursor position                         |
+| `'<letter>`         | 'a   Jump to the beginning of the line of the mark                          |
+| `:marks`            | List marks                                                                  |
+| `:delmarks<letter>` | Delete a specific mark                                                      |
+| `:delmarks!`        | Delete all marks                                                            |
 
 ---
 
