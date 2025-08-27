@@ -25,7 +25,7 @@ git clone https://github.com/ndrhamid/MyVimConfig.git
 Copy the provided vimrc to your home directory
 
 ```bash
-cp myvimconfig/vimrc ~/.vimrc
+cp MyVimConfig/vimrc ~/.vimrc
 ```
 
 ### 4. Install the plugins
