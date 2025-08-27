@@ -7,7 +7,6 @@ set fileencodings=utf-8
 call plug#begin('~/.vim/plugged')
 Plug 'vim-python/python-syntax'
 Plug 'Vimjas/vim-python-pep8-indent'
-"Plug 'vim-scripts/indentpython.vim'
 Plug 'kergoth/vim-bitbake'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
@@ -18,6 +17,14 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'voldikss/vim-floaterm'
+Plug 'sheerun/vim-polyglot'                                                               
+Plug 'tweekmonster/django-plus.vim'
+Plug 'dense-analysis/ale'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-commentary'
+Plug 'preservim/tagbar'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 " Plugin Block
 
