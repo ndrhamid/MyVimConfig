@@ -54,7 +54,19 @@ python3 install.py --all
 ```bash
 python3 install.py --clangd-completer --ts-completer
 ```
+### 3.Tagbar
+* To use the Tagbar plugin correctly, you need to install "ctags"
+```bash
+sudo apt install exuberant-ctags
+```
+
 ## Tips
+
+### Clipboard
+* If the clipboard feature in Vim doesn't work, try installing "vim-gtk3"
+```bash
+sudo apt install vim-gtk3
+```
 
 ### To update all plugins later, run
 ```
