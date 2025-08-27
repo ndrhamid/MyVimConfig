@@ -30,6 +30,8 @@
 | `:Vsplit`           | Vertical split                                                              |
 | `ctrl+w`            | Switch between windows                                                      |
 | `ctrl+t`            | Floaterm Toggle                                                             |
+| `ctrl+f`            | Open fuzzy                                                                  |
+| `Esc`               | Close fuzzy                                                                 |
 | `:!`                | Run shell command                                                           |
 | `:.!`               | Run shell command and insert output into file                               |
 | `:%s/X/Y`           | Replace X with Y in entire file (`g` = all in each line)                    |
@@ -43,6 +45,7 @@
 | `:delmarks!`        | Delete all marks                                                            |
 | `>>`                | Indent single line                                                          |
 | `<<`                | Unindent single line                                                        |
+| `gcc`               | Comment/Uncomment on line                                                   |
 
 ---
 
@@ -67,6 +70,7 @@
 | `it`     | Select inner tag                    |
 | `at`     | Select outer tag                    |
 | `:sort`  | Sort selected lines alphabetically  |
+| `gc`     | Comment/Uncomment multiple lines    |
 
 ---
 
