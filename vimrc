@@ -7,8 +7,8 @@ set fileencodings=utf-8
 call plug#begin('~/.vim/plugged')
 Plug 'vim-python/python-syntax'
 Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'vim-scripts/indentpython.vim'
 Plug 'kergoth/vim-bitbake'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -17,7 +17,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'voldikss/vim-floaterm'
-Plug 'sheerun/vim-polyglot'                                                               
+Plug 'sheerun/vim-polyglot'
 Plug 'tweekmonster/django-plus.vim'
 Plug 'dense-analysis/ale'
 Plug 'junegunn/fzf'
@@ -170,4 +170,18 @@ vnoremap <C-c> "+y
 " Vim floaterm configs
 nnoremap <C-t> :FloatermToggle<CR>
 tnoremap <C-t> <C-\><C-n>:FloatermToggle<CR>
+
+" Fuzzy
+nnoremap <C-f> :Files<CR>
+autocmd FileType fzf nnoremap <buffer> <Esc> :bd!<CR>
+
+" Linters
+let g:ale_linters = {
+  \ 'python': ['flake8', 'mypy'],
+  \ 'sh': ['shellcheck'],
+  \ 'bitbake': ['bitbake-lint-tool'],
+  \ }
+
+" Tagbar
+autocmd VimEnter * TagbarToggle
 
