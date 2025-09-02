@@ -170,6 +170,8 @@ vnoremap <C-c> "+y
 " Vim floaterm configs
 nnoremap <C-t> :FloatermToggle<CR>
 tnoremap <C-t> <C-\><C-n>:FloatermToggle<CR>
+autocmd QuitPre * silent! FloatermKill!
+autocmd VimLeave * silent! FloatermKill!
 
 " Fuzzy
 nnoremap <C-f> :Files<CR>
