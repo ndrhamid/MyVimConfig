@@ -146,7 +146,7 @@ au BufNewFile,BufRead *.py
     \set fileformat=unix
 
 " Bad white space
-highlight BadWhitespace ctermbg=red guibg=red
+highlight BadWhitespace ctermbg=magenta guibg=#ff79c6
 augroup BadSpace
   autocmd!
   autocmd VimEnter,WinEnter * call matchadd('BadWhitespace', '\s\+$')
