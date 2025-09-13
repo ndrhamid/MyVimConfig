@@ -160,6 +160,9 @@ let g:ycm_confirm_extra_conf = 0
 " Siwtch between buffers and tabs
 nnoremap gt :bnext<CR>
 nnoremap gT :bprevious<CR>
+nnoremap <leader>n :bnext<CR>
+nnoremap <leader>p :bprevious<CR>
+
 
 " Copy all lines to system clipboard with Ctrl+A
 nnoremap <C-a> :%y+<CR>
