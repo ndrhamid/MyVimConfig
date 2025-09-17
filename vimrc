@@ -188,5 +188,5 @@ let g:ale_linters = {
   \ }
 
 " Tagbar
-autocmd VimEnter * TagbarToggle
-
+" autocmd VimEnter * TagbarToggle
+autocmd BufRead *.py TagbarToggle
